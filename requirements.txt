@@ -1,0 +1,25 @@
+# LifeLink project requirements
+# This project runs on Node.js + MySQL. Install the following tools before starting the app.
+
+# System/runtime requirements
+node>=18
+npm>=9
+mysql>=8.0
+
+# Project dependencies are managed by package.json files in the root, client/, and server/ folders.
+# To install them, run:
+# npm run install:all
+
+# Database configuration required by the backend
+# DB_HOST=localhost
+# DB_PORT=3306
+# DB_USER=root
+# DB_PASSWORD=your_mysql_password
+# DB_NAME=lifelink_db
+
+# Environment file required for the server:
+# Copy .env.example to server/.env and fill in your MySQL credentials.
+
+# Demo login credentials for the seeded database:
+# Email: admin@lifelink.com
+# Password: Demo@123
